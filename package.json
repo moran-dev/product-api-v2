@@ -4,7 +4,9 @@
   "description": "Simple example of a RESTful API with Node.js, Express and TypeScript, with a basic CRUD for products",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node src/server.ts",
+    "dev": "nodemon src/server.ts"
   },
   "keywords": [],
   "author": "",
@@ -15,6 +17,7 @@
   },
   "devDependencies": {
     "@types/express": "^5.0.0",
+    "@types/node": "^22.7.5",
     "nodemon": "^3.1.7",
     "ts-node": "^10.9.2",
     "typescript": "^5.6.3"
